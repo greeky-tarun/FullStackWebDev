@@ -69,3 +69,12 @@ if(marks >= 90){
 }else{
     console.log("Better luck next time");
 }
+
+//Practice Qs
+//A "good string" is a string that starts with the letter 'a' & has a lenght > 3.
+let str = prompt("Write a string");
+if((str[0] === "a") && (str.length>3)){
+    console.log("This string is a Good String");
+}else{
+    console.log("Not a good string");
+}
