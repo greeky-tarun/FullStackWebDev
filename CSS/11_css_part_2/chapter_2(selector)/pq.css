@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    font-size: 26px;
+}
+
+#mainTopic{
+    color: blue;
+}
+
+h1,h3,h5{
+    font-style: Georgia;
+}
+
+.content{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* Change the color of every odd numbered paragraph to yellow. (Paragraph 1 & 3) */
+
+p:nth-of-type(2n){
+    color: yellow;
+}
+
+/*  Change the color of the first letter of h1 heading to red. */
+h1::first-letter{
+    color: red;
+}
+
+/* Set the text color of the checkbox label to dark green when the checkbox is ticked. */
+
+#yes:checked+label{
+    color: darkgreen;
+}
+
+

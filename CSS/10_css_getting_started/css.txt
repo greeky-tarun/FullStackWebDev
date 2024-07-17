@@ -1,0 +1,4 @@
+links: - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+styles and cards: https://uiverse.io/cards
+mdn - where you get all examples of tags 
+cssfontstack.com - here you can see diff. font styles

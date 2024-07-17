@@ -1,0 +1,19 @@
+h2 {
+    /* hexa code of rgb(255,255,255) */
+    color: #fff;
+    background-color: #000;
+
+    /* rgb values for blue and yellow
+    color: rgb(255, 255, 0);
+    color: rgb(0, 255, 255); */
+}
+
+/* p {
+    background-color: black;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: blue;
+} */

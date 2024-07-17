@@ -1,0 +1,138 @@
+/* !important - property */
+h3 {
+    background-color: antiquewhite !important;
+}
+
+/* Universal selector */
+* {
+    font-family: Georgia;
+}
+
+/* Element selector */
+h1,
+h3 {
+    color: #b92b27;
+}
+
+/* ID selector */
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+/* class selector */
+.upvote {
+    background-color: green;
+    color: white;
+}
+
+/* descendant selector */
+.post a {
+    color: purple;
+}
+
+nav ul li a {
+    color: cornflowerblue;
+}
+
+nav ul li {
+    color: #b92b27;
+}
+
+/* Adjacent Sibling Combinator */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button {
+    background-color: rgb(159, 227, 237);
+    color: black;
+}
+
+/* Child Combinator */
+div>input {
+    background-color: darksalmon;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+/* practice question */
+/* format - 1
+#myid p {
+    color: green;
+} 
+
+format -2
+div[id="myid"] p {
+    color: green;
+}*/
+
+/* pseudo class */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: rgb(193, 45, 70);
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked+label[for="yes"] {
+    color: blue;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked+label[for="no"] {
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n) {
+    background-color: rgb(232, 199, 136);
+}
+
+/* pseudo Elements */
+h1::first-letter {
+    color: rgb(29, 0, 218);
+}
+
+#myid>p::first-line {
+    color: mediumturquoise;
+}
+
+p::selection {
+    color: rgba(3, 79, 202, 0.783);
+}
+
+/* cascading styles */
+h3 {
+    background-color: yellow;
+}
+
+h3 {
+    background-color: blue;
+}

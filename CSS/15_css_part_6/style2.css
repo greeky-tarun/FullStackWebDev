@@ -1,0 +1,38 @@
+h2{
+    color: orange;
+}
+
+span{
+    color: burlywood;
+}
+
+.card{
+    /* height: 700px; */
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 25px;
+}
+
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    text-align: right;
+    color: #3c787e;
+}
+
+@media (max-width: 375px) {
+    #pets{
+        flex-wrap: wrap;
+    }
+}

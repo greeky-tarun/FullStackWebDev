@@ -1,0 +1,63 @@
+/* h2{
+    display: inline;
+    background-color: palevioletred;
+}
+
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+/* span{
+    height: 100px;
+    width: 100px;
+    /* background-color: pink; 
+    padding: 50px; /*only applicable in left and right
+    margin: 20px; /*only applicable in left and right
+    border: 2px solid black;
+}
+
+div{
+    height: 100px;
+        width: 100px;
+        /* background-color: pink; 
+        padding: 50px;
+        /*only applicable in left and right
+        margin: 20px;
+        /*only applicable in left and right
+        border: 2px solid black;
+} */
+
+/* div{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(202, 228, 11);
+    border: 2px solid black;
+    margin: 5px;
+    /* inline block it will work like block and consider all the styles 
+    display: inline-block;
+} */
+
+/* #third{
+    /* to hdie the element from the screen *
+    display: none;
+} */
+
+h1{
+    border: 2px solid black;
+    width: 33.33%;
+}
+
+#outerdiv{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#innerdiv{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 119, 255);
+    margin-left: 33.33%;
+}
