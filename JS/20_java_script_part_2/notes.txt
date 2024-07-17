@@ -1,0 +1,27 @@
+console.log()
+-------------
+To write (log) a message on the console
+
+console.log("Apna College")
+console.log(1234)
+console.log(2+2)
+console.log("Apna","College",123)
+
+Linking JS File:
+----------------
+<script src="app.js"></script>
+
+Template Literals:
+------------------
+They are used to add embedded expressions in a string.
+let a = 5;
+let b = 10;
+console.log(`Your pay ${a+b} rupees`);
+// console.log("Price is", a+b, "rupees");
+
+${ }//template literals
+
+Comparison Operators:
+---------------------
+Comparison Operators to compare 2 values.
+>,<,>=,<=,==,!=
