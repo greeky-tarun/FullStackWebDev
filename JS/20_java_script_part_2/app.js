@@ -78,3 +78,53 @@ if((str[0] === "a") && (str.length>3)){
 }else{
     console.log("Not a good string");
 }
+
+//switch statement
+let color = prompt("What the color of traffic light?").toLowerCase();
+switch(color){
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow":
+        console.log("slow down");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default:
+        console.log("light is not working");
+}
+
+
+//Print day of the week using number variable day
+let day = prompt("write day");
+switch(day){
+    case "1":
+        console.log("Monday");
+        break;
+    case "2":
+        console.log("Tuesday");
+        break;
+    case "3":
+        console.log("Wednesday");
+        break;
+    case "4":
+        console.log("Thrusday");
+        break;
+    case "5":
+        console.log("Friday");
+        break;
+    case "6":
+        console.log("Saturday");
+        break;
+    case "7":
+        console.log("Sunday");
+        break;
+    default:
+        console.log("put a valid num");
+}
+
+//alert and prompt
+console.log("this is a simple log");
+console.error("this is a wrong message"); //it will show error message
+console.warn("this is a warning message"); //it will show warning message

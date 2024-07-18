@@ -25,3 +25,108 @@ Comparison Operators:
 ---------------------
 Comparison Operators to compare 2 values.
 >,<,>=,<=,==,!=
+
+(compares value, not type) == -> operator not focusing on types it focuses on number only
+(compares type & value) === ->
+
+Comparison for non-numbers:
+---------------------------
+'a' > 'A' //true   'a' -> 61,'b' -> 62....
+'a' > 'b' //false  'A' -> 41. 'B' -> 42....
+'b' < 'c' //true
+'B' < 'C' //true
+'*' < '&' //false
+
+Conditional Statement:
+----------------------
+-> if-else
+-> nested if-else
+-> switch
+
+if Statement:
+-------------
+//some code before it
+if(some condition){
+ //DO SOMETHING
+}
+//some code after it
+
+else if statement:
+------------------
+if(condition1){
+ //Do something
+}
+else if(codition2){
+ //Do something else
+}
+else if(condition3){
+ //Do something else
+}
+
+else statement:
+---------------
+if(condition1){
+ //Do something
+}
+else{
+ //Do something else
+}
+
+Nested if-else:
+---------------
+Nesting is writing if-else inside if-else statements. It can have many levels.
+if marks >= 33
+   if marks >= 80
+          print "0"
+   else
+          print "A"
+else
+   print "better luck next time!"
+
+Logical Operators:
+-----------------
+Logical Operators to combine expressions
+
+&& Logic AND       (exp1)&&(exp2)
+
+|| Logical OR      (exp1)||(exp2)
+
+! Logical NOT      !(exp2)
+
+truthy & falsy:
+---------------
+Everything in JS is true or false (in Boolean context).
+This doesn't mean their value itself is false or true, but they are treated as false or true if taken in Boolean context.
+
+Falsy values
+false, 0, -0, On(Biglnt value), ""(empty string), null, undefined, NaN
+
+Truthy values
+Everything else
+
+Switch Statement:
+-----------------
+Used when we have some fixed values that we need to compare to.
+
+let color = prompt("What the color of traffic light?").toLowerCase();
+switch(color){
+    case "red":
+        console.log("stop");
+        break;
+    case "yellow":
+        console.log("slow down");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default:
+        console.log("light is not working");
+}
+
+Alret Statement:
+----------------
+Alert display an alret message on the page.
+alert("something is wrong!");
+
+prompt displays a dialog box that asks user for some input.
+prompt("please enter your roll no.");
