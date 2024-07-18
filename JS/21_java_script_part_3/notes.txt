@@ -1,0 +1,54 @@
+String Methods:
+--------------
+Methods- actions that can be performed on objects.
+
+Format:
+stringName.Method()
+
+so basically the we can identified a method by paranthsis() for an example we have used console.log() here log() is a method which prints in the console. Same as alert(), error() all this are Methods
+
+let str = "Apple"
+str.abc() //here abc is a method
+
+Trim method:
+------------
+let msg = "   Hello  "
+
+str.trim()
+Trims whitespaces from both ends of string & returns a new one.
+    msg.trim();
+    'Hello'
+    msg
+    '   Hello  '
+output: "Hello", but value of msg remains same.
+
+note:  in Javascript the strings are called as immuteable
+
+String are Immutable in JS:
+---------------------------
+No changes can be made to strings.
+Whenever we do try to make a change, a new string is created and old one remains same.
+
+-> let str = "Random string";
+-> str.toUpperCase()  "RANDOM STRING"
+-> str.toLowerCase()  "random string"
+
+note: don't forget to give paranthsis
+
+String Methods with Arguments:
+------------------------------
+Argument is a some value that we pass to the method.
+Format
+StringName.method(arg)
+
+indexOf:
+--------
+Returns the first index of occureance of some value in string. Or gives -1 if not found.
+
+let str = "IloveCoding";
+           012345678910
+str.indexOf("love")   //1
+str.inexOf("J")       //-1 (not found)
+str.indexOf("o")      //2(only 1 index)
+
+basically we are performing index search 
