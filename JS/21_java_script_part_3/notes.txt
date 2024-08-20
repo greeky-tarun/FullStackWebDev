@@ -51,4 +51,81 @@ str.indexOf("love")   //1
 str.inexOf("J")       //-1 (not found)
 str.indexOf("o")      //2(only 1 index)
 
-basically we are performing index search 
+basically we are performing index search.
+
+Method Chaining:
+----------------
+Using one method after another. Order of execution will be left to right.
+
+str.toUpperCase().trim();
+
+Slice:
+------
+Returns a part of the original string as a new string.
+let str = "IloveCoding";
+str.slice(5)   //"Coding"
+str.slice(1,4) //"love"
+
+str.slice(-num) = str.slice(length-num);
+ex. str.slice(-2); // ng
+
+replace:
+--------
+Searches a value in the string & returns a new string with the value replaced
+
+let str = "IloveCoding"
+str.replace("love","do")  //"IdoCoding" - it's a complete new string and the firstt accourance will change only
+str.replace("o","x")      //"IlxveCoding"
+
+repeat:
+-------
+Returns a string with the number of copies of a string
+let str = "Mango";
+str.repeat(3); //"MangoMangoMango"
+
+Array(Data structure):
+----------------------
+Linear collection of things
+here we will take a single variable and store too many items or elements
+
+let student = ["aman","tarun","kumar"];
+
+Visualizing Array:
+------------------
+let nums = [2,4,6,8];
+            0 1 2 3 
+
+let names = ["tarun", "kumar", "fdafdsa"];
+let info = ["tarun", 8.6, 9]; //mixed array
+let arr = []; //empty array
+
+arr.length; //0
+info[0] //tarun
+info[0][0] //t
+
+Arrays in Javascript like object type
+we can store differnt types data in a single array
+
+note: array is mutable
+let fruits = ["mango","apple","litcchi"];
+fruits[0] = "banana";  // it changes mango to banana
+fruits; // ['banana','apple','litcchi']
+fruits[10] = "allu";
+fruits; // ['banana','apple','litcchi',empty x 7,'allu']
+fruits.length; //11
+
+
+Array methods:
+--------------
+push: add to end
+pop: delete from end and returns it
+
+unshift: add to start
+shift: delete from start and returns it
+
+indexOf: returns index of something
+let student = ["aman","tarun","kumar"];
+student.indexOf("tarun"); // 1
+includes: search for a value
+student.includes("tarun"); // true
+
